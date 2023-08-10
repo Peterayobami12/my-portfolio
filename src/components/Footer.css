@@ -1,0 +1,100 @@
+.footer{
+    width: 100%;
+    background: black;
+}
+.homeIcon{
+    size: 20;
+    color: #fff;
+    margin-right: 2rem;
+}
+.phoneIcon{
+    size: 20;
+    color: #fff;
+    margin-right: 2rem;
+
+}
+.footer-container{
+    width: 100%;
+    margin: auto;
+    
+}
+.footer .footer-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.footer-container .left{
+    height: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+}
+.footer-container .right{
+    width: 300px;
+    margin: 20px;
+}
+.location .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.location p{
+    line-height: 30px;
+}
+.social .facebookIcon{
+    width: 30px;
+    height: 40px;
+    color: rgb(59, 59, 233);
+    padding-right: 10px;
+    cursor: pointer;
+    
+}
+.social .twitterIcon{
+    width: 30px;
+    height: 40px;
+    color: lightskyblue;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.social .linkedinIcon{
+    width: 30px;
+    height: 40px;
+    color: tomato;
+    cursor: pointer;
+}
+.right{
+    height: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+}
+h5{
+    padding-bottom: 0.7rem;
+}
+.phone h5{
+    display: flex;
+}
+.email h5{
+    display: flex;
+}
+.location h5{
+    display: flex;
+}
+.location p{
+    width: 200px;
+}
+.phone p{
+    width: 200px;
+}
+.email p{
+    width: 200px;
+}
+@media screen and (max-width:640px) {
+    .footer .footer-container{
+        grid-template-columns: 1fr;
+    }
+}

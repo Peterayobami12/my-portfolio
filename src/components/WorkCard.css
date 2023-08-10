@@ -1,0 +1,91 @@
+.work-container{
+    width: 100%;
+    background-color: black;
+}
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 0rem 0;
+}
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 5rem;
+
+}
+.pro-details .card-text{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: white;
+
+
+}
+.project-title{
+  color: white; 
+  padding: 1rem 0; 
+}
+
+.card{
+    background: #1a1919;
+    padding: 1.2rem 1rem;
+    width: 400px;
+
+}
+.project-card .imgs{
+    width: 100%;
+    
+}
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 ;
+}
+.pro-btns .btn{
+    padding: 0.5rem 1rem;
+    margin: 10px;
+    background-color: rgb(248, 217, 15) ;
+    
+}
+.pro-btns .btn:hover{
+    padding: 0.5rem 1rem;
+    background-color: white; 
+
+}
+
+    .card-group .card{
+        background:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #eee;
+        
+}
+@media screen and (max-width: 740px) {
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 960px) {
+    .project-container{
+        max-width: 960px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: auto;
+        margin-left: 5px;
+        justify-content: center;
+    }
+    
+}
+
+
+
+    
+
+
