@@ -8,6 +8,7 @@ function PricingCard() {
   return (
     <div className='pricing'>
         <div className='card-group'>
+            <h1 className=''>PRICING</h1>
             <div className='card'>
                 <h3 className='card-header'>- Basic -</h3>
                 <span className='bar'></span>

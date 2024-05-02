@@ -63,8 +63,8 @@
         border: 1px solid #eee;
         
 }
-@media screen and (max-width: 740px) {
-    .project-container{
+@media screen and (max-width: 640px) {
+    .work-container .project-container {
         display: flex;
         flex-direction: column;
         align-items: center;

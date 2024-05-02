@@ -15,7 +15,7 @@ function Heroimg() {
           <p>and</p>
           <h1>React Developer.</h1>
         
-        <div className=''>
+        <div className='btn-wrap'>
           <Link to="/project" className="btn">Projects</Link>
           <Link to="/contact" className="btn btn-light">Contact</Link>
         </div>

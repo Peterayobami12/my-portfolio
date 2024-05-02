@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { faHome, faMailBulk, faPhone } from '@fortawesome/free-solid-svg-icons';
 import './Footer.css';
-import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 function Footer() {
   return (
@@ -12,8 +12,8 @@ function Footer() {
                 <div className='location'>
                     <h5><FontAwesomeIcon icon={faHome} className="homeIcon"/>
                     
-                        <p>No 3, Bintin Estate
-                        Badagry Lagos</p>
+                        <p>No 3, Arobaba street, egbeda road,
+                        Idimu Lagos</p>
                     </h5>
                 </div>
                 <div className='phone'>
@@ -43,6 +43,7 @@ function Footer() {
              <Link to="https://web.facebook.com/goodlarson"><FontAwesomeIcon icon={faFacebook} className="facebookIcon"/></Link>
                <Link to="https://twitter.com/AjayiPe717536650000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000">  <FontAwesomeIcon icon={faTwitter} className="twitterIcon"/></Link>
                  <Link to="https://www.linkedin.com/in/peter-ajayi-39a37524a/"><FontAwesomeIcon icon={faLinkedin} className="linkedinIcon"/></Link>
+                 <Link to="https://github.com/Peterayobami12"><FontAwesomeIcon icon={faGithub} className="githubIcon"/></Link>
              </div>
             </div>
 

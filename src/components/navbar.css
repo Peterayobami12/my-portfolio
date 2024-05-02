@@ -20,6 +20,9 @@
     list-style: none;
     
 }
+h1{
+    color:  rgb(201, 159, 82);
+}
 .nav-menu li{
     padding: 0 1rem;
 }
@@ -43,7 +46,8 @@
     height: 50px;
 }
 
-@media screen and (max-width:1040px){
+
+@media screen and (max-width:1240px){
     .nav-menu{
         position: fixed;
         left: -100%;
@@ -61,5 +65,27 @@
     }
     .nav-menu li a{
         font-size: 2rem;
+    }
+    .header .contain .icon{
+        display: block;
+    }
+}
+@media screen and (max-width: 900px){
+    .header-bg{
+        display: block;
+    }
+    .nav-menu-active ul{
+        
+        display: grid;
+        justify-content: left;
+        align-items: left;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+}
+    .header-bg .contain{
+        display: block;
     }
 }

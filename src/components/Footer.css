@@ -66,6 +66,13 @@
     color: tomato;
     cursor: pointer;
 }
+.social .githubIcon{
+    width: 30px;
+    height: 40px;
+    padding-left: 10px;
+    color: rgb(172, 129, 125);
+    cursor: pointer;
+}
 .right{
     height: 100%;
     max-width: 100%;
@@ -94,6 +101,9 @@ h5{
     width: 200px;
 }
 @media screen and (max-width:640px) {
+    .footer{
+        width: 100%;
+    }
     .footer .footer-container{
         grid-template-columns: 1fr;
     }

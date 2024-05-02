@@ -22,6 +22,7 @@ function Navbar() {
   window.addEventListener("scroll", changeColor);
   
   return (
+    <div className='heading'>
     <div className= {color? 'header header-bg' : "header"}>
         <Link to='/' className='nav-link'>
             <h1>Portfolio</h1>
@@ -44,6 +45,7 @@ function Navbar() {
                 {click? <FontAwesomeIcon icon={faTimes} className='icon'/> : <FontAwesomeIcon icon={faBars} className='icon' />}
                </div>
 
+    </div>
     </div>
   )
 }
